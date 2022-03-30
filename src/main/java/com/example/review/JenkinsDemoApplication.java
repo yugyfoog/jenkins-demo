@@ -15,7 +15,7 @@ public class JenkinsDemoApplication {
 
 	@GetMapping("/sayHello")
 	public String getRequest0() {
-		return "Hello, world";
+		return "This is a test";
 	}
 
 	@GetMapping("/giveFeedback")
